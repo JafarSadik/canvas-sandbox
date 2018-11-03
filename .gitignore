@@ -1,7 +1,7 @@
 # travis, surge, npm, ...
 node_modules
 package-lock.json
-build
+lib
 
 # IntelliJ IDEA 
 .idea/
