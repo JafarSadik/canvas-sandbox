@@ -1,11 +1,11 @@
 {
   "name": "canvas-sandbox",
   "version": "1.0.0",
-  "description": "",
+  "description": "The library supports small graphical experiments on HTML canvas.",
+  "keywords": ["canvas", "html", "2D", "graphics", "experiment", "boilerplate"],
+  "author": "Jafar Sadik",
+  "license": "MIT",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  }
 }
