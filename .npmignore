@@ -7,7 +7,7 @@ test
 # npm, build
 node_modules
 package-lock.json
-build
+lib
 
 # IDE
 .idea/

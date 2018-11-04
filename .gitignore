@@ -1,8 +1,7 @@
 # npm, build
 node_modules
 package-lock.json
-build
-bundle.js
+lib
 
 # IDE
 .idea/
