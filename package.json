@@ -1,6 +1,6 @@
 {
   "name": "canvas-sandbox",
-  "version": "1.1.6",
+  "version": "1.1.7",
   "description": "The library supports boilerplate-free drawing on HTTP canvas.",
   "license": "MIT",
   "author": "Jafar Sadik",
