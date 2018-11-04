@@ -3,6 +3,7 @@ src
 test
 .babelrc
 .gitignore
+.travis.yml
 
 # npm, build
 node_modules
