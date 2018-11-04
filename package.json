@@ -1,10 +1,10 @@
 {
   "name": "canvas-sandbox",
-  "version": "1.2.6",
+  "version": "1.2.7",
   "description": "The library supports small graphical experiments on HTML5 canvas.",
   "license": "MIT",
   "author": "Jafar Sadik",
-  "main": "lib/index.js",
+  "main": "lib/bundle.js",
   "keywords": [
     "library",
     "canvas",
@@ -22,7 +22,7 @@
   },
   "scripts": {
     "clean": "rimraf lib",
-    "build": "babel src -d lib"
+    "build": "babel src -d lib && browserify lib/index.js > lib/bundle.js"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
