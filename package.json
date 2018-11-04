@@ -1,6 +1,6 @@
 {
   "name": "canvas-sandbox",
-  "version": "1.1.8",
+  "version": "1.1.9",
   "description": "The library supports boilerplate-free drawing on HTTP canvas.",
   "license": "MIT",
   "author": "Jafar Sadik",
@@ -16,6 +16,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/JafarSadik/canvas-sandbox"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "scripts": {
     "clean": "rimraf build bundle.js",
