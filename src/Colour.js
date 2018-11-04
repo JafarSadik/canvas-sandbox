@@ -14,7 +14,7 @@ export class Colour {
         return Colour.rgba(r, g, b, 255);
     }
 
-    // Converts HSL color value to RGB. Assumes h, s, and l are contained in the set [0, 1].
+    // Converts HSL color value to RGB. Assumes h, s, and l are contained in the set [0, 1]
     static hsl(h, s, l) {
         let r, g, b;
 
