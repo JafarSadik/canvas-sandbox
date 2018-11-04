@@ -1,3 +1,5 @@
-export * from "./Vector2D";
-export * from "./FPS"
-export * from "./Colour";
+import {Vector2D} from "./Vector2D";
+import {FPS} from "./FPS"
+import {Colour} from "./Colour";
+
+export {Vector2D, FPS, Colour}
