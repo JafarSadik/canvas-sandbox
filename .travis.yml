@@ -1,11 +1,12 @@
 language: node_js
 node_js: 9
-
 install: npm install
-
 script: npm run build
-
-
+deploy:
+  provider: npm
+  email: $EMAIL_ADDRESS
+  api_key:
+    secure: $ENCRYPTED_NPM_TOKEN
 cache:
   directories:
   - node_modules
