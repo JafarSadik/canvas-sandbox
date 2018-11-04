@@ -1,10 +1,10 @@
 {
   "name": "canvas-sandbox",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "The library supports boilerplate-free drawing on HTTP canvas.",
   "license": "MIT",
   "author": "Jafar Sadik",
-  "main": "lib/index.js",
+  "main": "bundle.js",
   "keywords": [
     "library",
     "canvas",
@@ -18,13 +18,14 @@
     "url": "https://github.com/JafarSadik/canvas-sandbox"
   },
   "scripts": {
-    "clean": "rimraf lib",
-    "build": "babel src -d lib"
+    "clean": "rimraf build bundle.js",
+    "build": "babel src -d build && browserify build/index.js > bundle.js"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
     "babel-preset-latest": "^6.24.1",
+    "browserify": "^16.2.3",
     "rimraf": "^2.6.2",
     "mkdirp": "^0.5.1"
   }

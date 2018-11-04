@@ -1,9 +1,10 @@
-# travis, surge, npm, ...
+# npm, build
 node_modules
 package-lock.json
-lib
+build
+bundle.js
 
-# IntelliJ IDEA 
+# IDE
 .idea/
 *.iml
 *.ipr

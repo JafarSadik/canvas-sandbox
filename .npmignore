@@ -1,2 +1,14 @@
+# sources
 src
 test
+
+# npm, build
+node_modules
+package-lock.json
+build
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
