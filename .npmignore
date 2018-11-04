@@ -1,6 +1,8 @@
 # sources
 src
 test
+.babelrc
+.gitignore
 
 # npm, build
 node_modules
