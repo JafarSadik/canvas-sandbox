@@ -28,7 +28,8 @@
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
     "babel-preset-latest": "^6.24.1",
-    "rimraf": "^2.6.2",
-    "mkdirp": "^0.5.1"
+    "browserify": "^16.2.3",
+    "mkdirp": "^0.5.1",
+    "rimraf": "^2.6.2"
   }
 }
