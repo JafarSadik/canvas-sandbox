@@ -7,7 +7,7 @@ deploy:
   skip_cleanup: true
   email: dzafar.sadik@gmail.com
   api_key:
-    secure: $NPM_TOKEN
+    secure: Q0esJymiXtZ2ex0b0J4VPFpALTA0Ug/7Li3eAEBbqETqXYaZcpbxWuSOGvvriot9U++FsW4vSbxIKo3VfTuj6Mi/oPsLuudOENXabaOgCwjCG+ra0TiUBy/UwRd/UXLmQnjCAhHQ5ZnlEjMudSw++B0L3oHHKI5UbMgmjZumK+tX0m17wJP9GMpwL3k3QZy8LnAzpRYL17ekZPb29ZTcFaZ213iUcwCcdb/HtUpptCkYT3X2K05YBm0eU59CxoKxlDD3gDGSuWvUIVGiNhZuh4/2tsIpeE8gTf0s3RCvn3srhNTY/p9YildQbiEZqVLUT7UrTSG9bucthdLS0Se5V+0cJ10tpOtXK94gItZ01hyyZQh23qdVXLX3VLMmCtT+Sz5vLXAdbURSdWuK9FS3qVcjYCdO16G8lIWm283w3ZUbMBMDuMi3vS9Q5fZ7hn0co0gcWpDBn6YvOP8Zq04ApRApalKLhs5glX5O0Zp9WoT5HOg8oGxXnhpqbcvjA4o9pkrNuZBPTsVpOrXq0MOL769iqKBTRxzx3dw89vWAUDrbUs0eQ4AfT7b5FFb0bG+sNdcNiSXWAF4ddRJ3C0wpA3MEfZcpyV68Rhxu6R7AxtF04At4r4OU9r9mSQWBko8DPjX/QrPVNqqnbk3B/So6/+53sKDPl6kVc/nGyTyooxU=
   on:
     branch: master
 cache:
