@@ -1,4 +1,4 @@
-export class FPS {
+class FPS {
     constructor() {
         this.frameCounter = 0;
         this.fps = 0;
@@ -19,3 +19,5 @@ export class FPS {
         return this.fps;
     }
 }
+
+module.exports.FPS = FPS;

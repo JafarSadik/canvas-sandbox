@@ -1,3 +1,9 @@
-export {Vector2D} from "./Vector2D";
-export {FPS} from "./FPS"
-export {Colour} from "./Colour";
+var Vector2D = require("./Vector2D");
+var FPS = require("./FPS");
+var Colour = require("./Colour");
+
+module.exports = {
+    Vector2D,
+    FPS,
+    Colour
+};

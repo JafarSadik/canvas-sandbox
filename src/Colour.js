@@ -1,4 +1,4 @@
-export class Colour {
+class Colour {
     constructor(r, g, b, a) {
         this.r = r;
         this.g = g;
@@ -81,3 +81,4 @@ export class Colour {
     }
 }
 
+module.exports.Colour = Colour;
