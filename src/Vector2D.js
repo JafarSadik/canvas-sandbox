@@ -1,4 +1,4 @@
-class Vector2D {
+export class Vector2D {
     constructor(x, y) {
         this.components = {x, y}
     }
@@ -62,5 +62,3 @@ class Vector2D {
         return `vec2d(${this.x}, ${this.y})`;
     }
 }
-
-module.exports.Vector2D = Vector2D;
